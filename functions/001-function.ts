@@ -1,17 +1,17 @@
 // Melhore essa função usando código limpo
 
-import { cliente } from "../utils/Cliente";
-import { transacao } from "../utils/Transacao";
+import { clienteExemplo } from "../utils/Cliente";
+import { transacaoExemplo } from "../utils/Transacao";
 
 function executarTransacao() {
-  if (transacao.eSegura && cliente.idade > 18) {
+  if (transacaoExemplo.eSegura && clienteExemplo.idade > 18) {
     if (
-      transacao.eSegura &&
-      transacao.valor > 0 &&
-      transacao.cliente &&
-      transacao.cliente.nome &&
-      transacao.cliente.saldo > 0 &&
-      transacao.cliente.saldo >= transacao.valor
+      transacaoExemplo.eSegura &&
+      transacaoExemplo.valor > 0 &&
+      transacaoExemplo.cliente &&
+      transacaoExemplo.cliente.nome &&
+      transacaoExemplo.cliente.saldo > 0 &&
+      transacaoExemplo.cliente.saldo >= transacaoExemplo.valor
     ) {
       console.log("Executando a transação");
     }
