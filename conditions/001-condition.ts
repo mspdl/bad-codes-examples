@@ -1,5 +1,7 @@
 // Abstraia a condição usando código limpo
 
+import { transacao } from "../utils/Transacao";
+
 if (
   transacao.eSegura &&
   transacao.valor > 0 &&

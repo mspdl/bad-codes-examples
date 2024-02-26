@@ -1,5 +1,8 @@
 // Melhore essa função usando código limpo
 
+import { cliente } from "../utils/Cliente";
+import { transacao } from "../utils/Transacao";
+
 function executarTransacao() {
   if (transacao.eSegura && cliente.idade > 18) {
     if (

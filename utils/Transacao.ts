@@ -7,7 +7,7 @@ type Transacao = {
   };
 };
 
-const transacao = {
+export const transacao: Transacao = {
   eSegura: false,
   valor: 123.0,
   cliente: {

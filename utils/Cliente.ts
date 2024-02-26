@@ -4,7 +4,7 @@ type Cliente = {
   saldo: number;
 };
 
-const cliente: Cliente = {
+export const cliente: Cliente = {
   nome: "Fulano",
   idade: 25,
   saldo: 234.55,
