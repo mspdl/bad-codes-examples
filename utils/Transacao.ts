@@ -1,4 +1,4 @@
-type Transacao = {
+export type Transacao = {
   eSegura: boolean;
   valor: number;
   cliente: {
@@ -7,7 +7,7 @@ type Transacao = {
   };
 };
 
-export const transacao: Transacao = {
+export const transacaoExemplo: Transacao = {
   eSegura: false,
   valor: 123.0,
   cliente: {
